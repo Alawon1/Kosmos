@@ -1,0 +1,17 @@
+.t-section-gray{
+    
+    
+    height: 70px;
+
+    &__bold-text{
+        font-size: $font-size-gray;
+        font-weight: 400;       
+        padding-top: 10px;
+        
+        text-align: justify;
+        width: auto;
+        text-align: center;
+        color: $text-gray
+    }
+
+}
