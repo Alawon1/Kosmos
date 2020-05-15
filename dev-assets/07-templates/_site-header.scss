@@ -1,0 +1,17 @@
+.t-site-header{
+
+    &__top{
+        padding-bottom: $grid-base * 2.5;
+        padding-top: $grid-base * 2.5;
+    }
+
+    &__menu{
+        margin-top: $grid-base * 2;
+      
+        margin-top: 0;
+        text-align: right;
+        
+    }
+
+    
+}

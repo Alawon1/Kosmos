@@ -1,0 +1,26 @@
+.o-col{
+    width: 100%;
+    padding-left: $gutter;
+    padding-right: $gutter;
+
+   
+    &--lg25{        
+        flex: 0 0 25%;
+        max-width: 25%;        
+    }
+
+    &--lg33{        
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;        
+    }
+
+    &--lg50{      
+        flex: 0 0 50%;
+        max-width: 50%;      
+    }
+
+    &--lg75{  
+        flex: 0 0 75%;
+        max-width: 75%;  
+    }
+}
