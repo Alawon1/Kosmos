@@ -142,7 +142,7 @@ a:hover {
 }
 
 .c-heading {
-  color: blue;
+  color: #266ced;
   line-height: 1.2;
   margin-bottom: 5px;
 }
@@ -246,6 +246,47 @@ a:hover {
   text-align: right;
 }
 
+.t-section-info {
+  height: 377px;
+}
+
+.t-section-info__left-side {
+  left: 130px;
+  top: 40px;
+  max-width: 300px;
+}
+
+.t-section-info__headline-big {
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.t-section-info__headline-text {
+  right: 50px;
+  font-size: 0.875rem;
+  color: #266ced;
+  text-align: justify;
+  font-weight: 400;
+}
+
+.t-section-gray {
+  height: 70px;
+}
+
+.t-section-gray__bold-text {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 10px;
+  text-align: justify;
+  width: auto;
+  text-align: center;
+  color: #434747;
+}
+
 .u-mb-1 {
   margin-bottom: 10px;
 }
@@ -303,6 +344,14 @@ a:hover {
 }
 
 .u-text-blue {
-  color: blue;
+  color: #266ced;
+}
+
+.u-pos-relative {
+  position: relative;
+}
+
+.u-pos-absolute {
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+.t-section-info{
+
+    height: 377px;
+    &__left-side{
+        left: $grid-base * 13;
+        top: $grid-base * 4;        
+        max-width: 300px;
+        
+    }
+
+    &__headline-big{
+        font-size: $font-size-image;
+        color: $white;
+        margin-bottom: $grid-base * 2;
+        font-weight: 400;
+        font-style: italic;
+        line-height: $line-height-sm;
+    }
+
+    &__headline-text{
+        right: $grid-base * 5;
+        font-size: $font-size-5;
+        color: $blue-text;
+        text-align: justify;
+        font-weight: 400;
+    }
+
+}
