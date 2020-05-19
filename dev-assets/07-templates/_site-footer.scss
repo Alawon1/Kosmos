@@ -1,0 +1,52 @@
+.t-site-footer{
+    padding-left: $gutter;
+    padding-right: $gutter;
+
+    & .o-row{
+        padding-bottom: $grid-base * 1;
+        padding-top: $grid-base * 2;
+    }
+
+    &__item{
+        flex-basis: auto;
+
+        
+    }
+
+
+    &__head{
+        align-items: center;
+        display: flex;
+        height: $grid-base * 6;
+        font-size: $font-size-3;
+        font-weight: 400;
+    }
+
+    &__link{
+        color: $footer-text;
+        font-size: $font-size-6;       
+    }
+
+    &__link:hover{
+        color:$white;
+    }
+
+    &__border{
+        height: 3px;
+        background-color: $dark-blue-text;
+        border-top: solid black 1px;
+        
+        width: 65%;
+    }
+
+    &__text{
+        color: $footer-text;
+        font-size: $font-size-6;
+    }
+
+    &__copyright{
+        color: $copyright-text;
+        font-size: $font-size-6;
+        font-weight: 200;
+    }
+}
