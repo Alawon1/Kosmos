@@ -1,28 +1,63 @@
 .c-btn{
     border: none;
     border-radius: $border-radius;
-    display: inline-block;
+    
     font-size: $font-size-5;
     font-weight: 700;
     line-height: $line-height-base;
-    padding: .3rem 0;
+    
     text-align: center;
     text-transform: uppercase;
-    transition: all .25s ease-in-out;
+    //transition: all .25s ease-in-out;
+    
     width: $grid-base * 22;
     
 
     &:hover{
         text-decoration: none;
+        
     }
 
     &--blue{
-        background-color: $btn-blue;
+        
+        background: rgb(14,83,132);
+        background: linear-gradient(0deg, rgba(14,83,132,1) 5%, rgba(32,132,205,1) 76%);
         color: $white;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        box-shadow: 0 3px 16px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.19);
+        
+        display: inline-block;
+        padding: .3rem 0;
+        
 
         &:hover{
-            background-color: darken($color: $btn-blue, $amount: 15%);
+            
+            background: rgb(12,68,107);
+            background: linear-gradient(0deg, rgba(12,68,107,1) 5%, rgba(37,119,179,1) 76%);
+            color: $white;
+            
+        }
+    }
+
+    &--footer{
+        background: rgb(14,83,132);
+        background: linear-gradient(0deg, rgba(14,83,132,1) 5%, rgba(32,132,205,1) 76%);
+        color: $white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 200px;
+        height: 30px;
+        font-weight: 400;
+        font-size: $font-size-6;
+        text-transform: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+        
+
+        &:hover{
+            background: rgb(12,68,107);
+            background: linear-gradient(0deg, rgba(12,68,107,1) 5%, rgba(37,119,179,1) 76%);
             color: $white;
         }
     }
