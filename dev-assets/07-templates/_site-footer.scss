@@ -36,7 +36,7 @@
         background-color: $dark-blue-text;
         border-top: solid black 1px;
         
-        width: 65%;
+        width: 90%;
     }
 
     &__text{
@@ -52,11 +52,10 @@
     }
 
     &__input{
-        
-        margin-top: $grid-base;
-        height: $line-height-lg;
-        box-sizing: border-box;
+        border-radius: 0.3rem;
+        margin-top: $grid-base * 0.7;
         float: left;
         margin-right: $grid-base * 2;
+        width: 270px;
     }
 }
