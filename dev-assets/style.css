@@ -30,7 +30,6 @@ p {
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
-  margin-bottom: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -389,7 +388,7 @@ a:hover {
 }
 
 .t-site-footer__link {
-  color: #cee7f5;
+  color: #e0e0e0;
   font-size: 0.75rem;
 }
 
@@ -405,7 +404,7 @@ a:hover {
 }
 
 .t-site-footer__text {
-  color: #cee7f5;
+  color: #e0e0e0;
   font-size: 0.75rem;
 }
 
@@ -468,7 +467,7 @@ a:hover {
 }
 
 .u-text-footer-text {
-  color: #cee7f5;
+  color: #e0e0e0;
 }
 
 .u-text-blue {
