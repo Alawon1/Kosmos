@@ -45,8 +45,18 @@
     }
 
     &__copyright{
+        margin-top: $grid-base;
         color: $copyright-text;
         font-size: $font-size-6;
         font-weight: 200;
+    }
+
+    &__input{
+        
+        margin-top: $grid-base;
+        height: $line-height-lg;
+        box-sizing: border-box;
+        float: left;
+        margin-right: $grid-base * 2;
     }
 }

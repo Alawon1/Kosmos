@@ -121,11 +121,9 @@ a:hover {
 .c-btn {
   border: none;
   border-radius: 5px;
-  display: inline-block;
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.5;
-  padding: .3rem 0;
   text-align: center;
   text-transform: uppercase;
   -webkit-transition: all .25s ease-in-out;
@@ -142,9 +140,32 @@ a:hover {
   color: #FFFFFF;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  padding: .3rem 0;
 }
 
 .c-btn--blue:hover {
+  background-color: #104a74;
+  color: #FFFFFF;
+}
+
+.c-btn--footer {
+  background-color: #1a75b7;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-transform: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.c-btn--footer:hover {
   background-color: #104a74;
   color: #FFFFFF;
 }
@@ -409,9 +430,19 @@ a:hover {
 }
 
 .t-site-footer__copyright {
+  margin-top: 10px;
   color: #2c79f5;
   font-size: 0.75rem;
   font-weight: 200;
+}
+
+.t-site-footer__input {
+  margin-top: 10px;
+  height: 1.8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  margin-right: 20px;
 }
 
 .u-mb-1 {
